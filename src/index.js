@@ -6,6 +6,7 @@ import Counter from "./Counter"
 
 import * as serviceWorker from './serviceWorker';
 import CounterStore from './store/counterStore'; // 방금 만든 스토어 불러와줍니다.
+import CompositeComponent from "./CompositeComponent"
 
 const counter = new CounterStore(); // 스토어 인스턴스를 만들고
 
